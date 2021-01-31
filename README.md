@@ -1,6 +1,16 @@
 # pdf_count_color_pages
 Short Python script to count the number of color pages in a PDF file
 
+# Setup
+Set up python environment, e.g. with anaconda:
+```sh
+conda env create --prefix ./env -f environment.yml
+```
+Then activate it:
+```sh
+conda activate ./env
+```
+
 # Usage
 Simply pass the path to the PDF file that shall be analyzed as command line argument, like
 ```sh

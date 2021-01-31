@@ -1,0 +1,10 @@
+name: pdf_count_color_pages
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - poppler
+  - PyPDF2
+  - pip
+  - pip:
+    - pdf2image
